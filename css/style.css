@@ -1,3 +1,7 @@
+:root{
+    
+}
+
 html{
     font-size: 62.5%;
 }
@@ -12,6 +16,11 @@ body{
     font-size: 3.8rem;
 }
 
-.titulo span {
+h1.titulo span {
     font-size: 2rem;
+    color: blue;
+}
+.titulo span{
+    font-size: 2rem;
+    color: red;
 }
