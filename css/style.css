@@ -5,7 +5,6 @@
     --secundario: #0097A7;
     --gris: #757575;
     --fuenteprincipal: 3.8rem;
-    font font-family: ;
 
 }
 
@@ -16,16 +15,31 @@ html {
 body {
     font-size: 16px;
     /* 1 rem = 1o px*/
+    font-family: 'Krub', sans-serif;
 
 }
 
 .titulo {
     text-align: center;
     font-size: var(--fuenteprincipal);
-
 }
 
 .titulo span {
     font-size: 2rem;
-    color: red;
+    color: var(--oscuro);
 }
+
+.contenedor{
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.nav-gb{
+    background-color: #0097A7;
+
+}
+
+.navegacion-Principal{
+    background-color: #0097A7;
+}
+
